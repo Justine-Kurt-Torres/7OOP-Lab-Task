@@ -1,15 +1,16 @@
-title: [Portfolio]
-description: [Object-Oriented Programming Portfolio]
-author:Test student.
-remote_theme: pages-themes/merlot@v0.2.0
+title: "Portfolio"
+description: "Enterprise Data Management Portfolio"
+author:Test Student.
+remote_theme: pages-themes/minimal@v0.2.0
+logo: "images/file_00000000dc3051f7aa501666f65bc011_conversation_id_67f12909-f8f0-8004-a59e-dd468d5965d4_message_i_1.jpeg"
 
-Show_downloads: true
+show_downloads: true
 
 github:
-  is_prject_page: true
-  
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  is_project_page: true
 
-includes:
-- images
+plugins:
+  - jekyll-remote-theme
+
+include:
+  - images
