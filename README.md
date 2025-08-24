@@ -1,30 +1,53 @@
-# 7OOP-Lab-Projects
-This repo will contain a collection of laboratory activities and projects in 7OOP
+<p align="center">
+  
+<img src="https://capsule-render.vercel.app/api?type=transparent&height=200&text=Torres%20Justine%20Kurt&fontAlign=50&animation=blink&fontSize=70&fontColor=44444E&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=24&descSize=25"/>
+
+</p>
+
 
 ---
 
-Welcome to my **Portfolio**😄. This portfolio contains my OOP Lab exercises... *WIP*
+***This repo will contain a collection of laboratory activities and projects in OOP***
+
+---
+
+Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
+This will reflect my progress and understanding through out the subject.
+
 
 
 ---
 ## 🕶️ About Me
-Hi I am ***Kurt***, a curious student in that is always learning and improving my knowledge as I discover new and interesting things.
-A simple and quiet person :wink:
+Hi I am ***Kurt👋***,
+A simple and quiet person😉.
 ## What I Believe In:
+- Life is not a race, Don't rush, there is always a time for every moment👌
+- Failing is part of the proccess, so trust the proccess and evaluate progres.
+- Always be Resilient, Life is tough.💪
+
+The key to success is by ***always learning and improving***, maintain balance in your life, always grab every opportunity that comes right in front of your door.
 
 ---
 
 ## 🎓Education
-**College**: *City College of Angeles City* (Current School: 2nd Year Bachelors of Science in Computer Science🖥️)
-
-**Senior Highschool**: *Angeles City National Trade School* (CSS Strand)
+**Senior Highschool**: *Angeles City National Trade School* (CSS Strand)👨‍💻
 
 **Junior Highschool**: *Angeles City National Trade school*
+
+**Elementary**: *Sto. Rosario Elementary School*
 
 ---
 
 ## ⌨️ Programming Languages
-*WIP*
+<p align="left"> 
+<img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" height="50"/>  
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/C-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white" height="50"/>
+&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/java-green?style=for-the-badge&logoColor=rgb&logoSize=auto&labelColor=White&color=green&cacheSeconds=http" height="50"/>
+&nbsp;&nbsp;
+
+</p>
 
 ---
 
@@ -38,12 +61,16 @@ A simple and quiet person :wink:
 ---
 
 ## 🤩Fun Facts About Me
-*WIP*
+- I love listening to music🎧
+- I'm interested in various online mobile games🎮
+- I'm interested in martial arts too💪
+- Sometimes I'm quiet and sometimes noisy too😆
+- Sometimes I get distracted easily on online while watching video tutorials😅
 
 ---
 
 ## 📌Skills
--Time Management 🕰️
+- Time Management 🕰️
 - Adaptability 🔄
 - Positive Attitude 😊
 - Active Listener 👂
