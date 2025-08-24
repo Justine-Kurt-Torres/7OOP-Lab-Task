@@ -22,7 +22,7 @@ Hi I am ***Kurt👋***,
 A simple and quiet person😉.
 ## What I Believe In:
 - Life is not a race, Don't rush, there is always a time for every moment👌
-- Failing is part of the proccess, so trust the proccess and evaluate progres.
+- Failing is part of the proccess, so trust the proccess and evaluate progres.📈
 - Always be Resilient, Life is tough.💪
 
 The key to success is by ***always learning and improving***, maintain balance in your life, always grab every opportunity that comes right in front of your door.
