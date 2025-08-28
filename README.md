@@ -3,7 +3,14 @@
   
 <img src="https://capsule-render.vercel.app/api?type=transparent&height=200&text=Torres%20Justine%20Kurt&fontAlign=50&fontSize=70&fontColor=44444E&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=24&descSize=25&textBg=false&reversal=false"/>
 
+</p>
 ---
+<p allign="center">
+
+<img src="Messenger_creation_6E0657AA-E02A-4355-8B15-2AA44F90B7BA.jpg"/>
+  
+</p>
+
 
 Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
 This will reflect my progress and understanding through out the subject.
