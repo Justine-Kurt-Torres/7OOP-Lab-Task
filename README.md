@@ -1,4 +1,5 @@
 ---
+
 <p align="center">
   
 <img src="https://capsule-render.vercel.app/api?type=transparent&height=200&text=Torres%20Justine%20Kurt&fontAlign=50&fontSize=70&fontColor=44444E&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=24&descSize=25&textBg=false&reversal=false"/>
@@ -11,7 +12,7 @@
   <img src="IMG.jpg" 
        alt="Profile picture" 
        width="200" 
-       style="clip-path: circle();" />
+       style="border-radius:50%;overflow:hidden;" />
 </p>
 
 <h2 align="center">
@@ -22,9 +23,8 @@
 Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
 This will reflect my progress and understanding through out the subject.
 
-
-
 ---
+
 ## 🕶️ About Me
 A simple and quiet person😉.
 
@@ -87,9 +87,9 @@ The key to success is by ***always learning and improving***, maintain balance i
 
 ## 📞 Click Below to Connect With Me!
 
-<a href="https://mail.google.com/mail/?view=cm&fs=1&to=crizojose24-0501@cca.edu.ph" target="_blank">
+<a href="mailto:jtorres24-0064@cca.edu.ph" target="_blank">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="40"/>
-  </a>
+</a>
   &nbsp;&nbsp;
   <a href="https://www.facebook.com/rizojose.1214" target="_blank">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" height="40"/>
