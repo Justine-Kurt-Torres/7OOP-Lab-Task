@@ -6,11 +6,13 @@
 </p>
 ---
 
-<p allign="center">
-
-<img src="Messenger_creation_6E0657AA-E02A-4355-8B15-2AA44F90B7BA.jpg"/>
-  
+<p align="center">
+  <img src="1000031599.png" 
+       alt="Profile picture" 
+       width="200" 
+       style="border-radius: 50%; object-fit: cover;" />
 </p>
+
 
 
 Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
