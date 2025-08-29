@@ -11,13 +11,12 @@
   <img src="IMG.jpg" 
        alt="Profile picture" 
        width="200" 
-       style="border-radius: 50%; object-fit: cover;" />
+       style="clip-path: circle();" />
 </p>
 
-<p align="center">
-  <b>Hello! I'm Kurt 👋</b>
-</p>
-
+<h2 align="center">
+  Hello! I'm Kurt 👋
+</h2>
 
 
 Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
