@@ -14,6 +14,10 @@
        style="border-radius: 50%; object-fit: cover;" />
 </p>
 
+<p align="center">
+  <b>Hello! I'm Kurt 👋</b>
+</p>
+
 
 
 Welcome to my **Object-Oriented Programming Portfolio!**. This portfolio contains my OOP Lab exercises, emphasizing what I learned and applied it to various challenges and projects.
@@ -23,8 +27,8 @@ This will reflect my progress and understanding through out the subject.
 
 ---
 ## 🕶️ About Me
-Hi I am ***Kurt👋***,
 A simple and quiet person😉.
+
 ## What I Believe In:
 - Life is not a race, Don't rush, there is always a time for every moment👌
 - Failing is part of the proccess, so trust the proccess and evaluate progres.📈
