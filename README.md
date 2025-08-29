@@ -26,7 +26,7 @@ This will reflect my progress and understanding through out the subject.
 ---
 
 ## 🕶️ About Me
-A simple and quiet person😉.
+I am a Computer Science student in City College of Angeles, who enthusiastically do about on what picked my interest, and also a positive, simple and quiet person😉.
 
 ## What I Believe In:
 - Life is not a race, Don't rush, there is always a time for every moment👌
