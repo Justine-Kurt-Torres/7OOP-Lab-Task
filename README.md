@@ -4,10 +4,11 @@
 <img src="https://capsule-render.vercel.app/api?type=transparent&height=200&text=Torres%20Justine%20Kurt&fontAlign=50&fontSize=70&fontColor=44444E&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=24&descSize=25&textBg=false&reversal=false"/>
 
 </p>
+
 ---
 
 <p align="center">
-  <img src="1000031599.png" 
+  <img src="IMG.jpg" 
        alt="Profile picture" 
        width="200" 
        style="border-radius: 50%; object-fit: cover;" />
