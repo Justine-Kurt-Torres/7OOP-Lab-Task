@@ -11,7 +11,8 @@
 <p align="center">
   <img src="IMG.jpg" 
        alt="Profile picture" 
-       width="200" 
+       width="200"
+       height="400"
        style="border-radius:50%;overflow:hidden;" />
 </p>
 
