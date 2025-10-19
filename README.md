@@ -12,7 +12,7 @@
   <img src="IMG.jpg" 
        alt="Profile picture" 
        width="200"
-       height="400"
+       height="300"
        style="border-radius:50%;overflow:hidden;" />
 </p>
 
