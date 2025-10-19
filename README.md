@@ -60,9 +60,13 @@ The key to success is by ***always learning and improving***, maintain balance i
 ---
 
 ## 💻My Projects
-*WIP*
+
 ### 📝Midterm
-*WIP*
+**MIDTERM LAB TASK 1:** [📂]()
+**MIDTERM LAB TASK 2:** [📂 Using Loops and Functions]()
+**MIDTERM LAB TASK 3:** [📂 Using List Collection Types]()
+**MIDTERM LAB TASK 4:** [📂 Using Dictionaries]()
+**MIDTERM LAB TASK 5:** [📂 Creating Class and Instantiating Objects in Python]()
 ### 🎓Finals
 *WIP*
 
