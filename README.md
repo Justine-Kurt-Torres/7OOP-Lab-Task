@@ -67,7 +67,7 @@ The key to success is by ***always learning and improving***, maintain balance i
 **MIDTERM LAB TASK 2:** [📂 *Using Loops and Functions*](https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask2.pdf)   
 **MIDTERM LAB TASK 3:** [📂 *Using List Collection Types*](https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask3.pdf)   
 **MIDTERM LAB TASK 4:** [📂 *Using Dictionaries*](https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask4.pdf)   
-**MIDTERM LAB TASK 5:** [📂 *Creating Class and Instantiating Objects in Python*](https://github.com/Justine-Kurt-Torres/7OOP-LabTask/blob/main/MidtermLabTask5.pdf)
+**MIDTERM LAB TASK 5:** [📂 *Creating Class and Instantiating Objects in Python*]()
 ### 🎓Finals
 **FINALS LAB TASK 1:** [📂 *A Car that Works (Encapsulation)*](https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/FinalsLabTask1.pdf)
 
