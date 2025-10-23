@@ -3,91 +3,216 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Torres Justine Kurt | OOP Portfolio</title>
+  <title>Torres Justine Kurt | Cyber Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="cyber-bg"></div>
-
-  <header class="fade-section">
-    <h1>Torres Justine Kurt</h1>
-    <p class="subtitle">OOP PORTFOLIO</p>
-    <nav>
-      <button class="nav-btn" onclick="scrollToSection('about')">About Me</button>
-      <button class="nav-btn" onclick="scrollToSection('projects')">Projects</button>
-      <button class="nav-btn" onclick="scrollToSection('skills')">Skills</button>
-      <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+  <header>
+    <nav class="navbar">
+      <a href="#home" class="nav-btn">Home</a>
+      <a href="#about" class="nav-btn">About</a>
+      <a href="#skills" class="nav-btn">Skills</a>
+      <a href="#contact" class="nav-btn">Contacts</a>
     </nav>
   </header>
 
-  <section id="about" class="fade-section">
-    <h2>💾 About Me</h2>
-    <img src="assets/IMG.jpg" alt="Profile" class="profile-img">
-    <p>I am a Computer Science student at City College of Angeles, focused on systems and logic. I pursue what captures my interest with positivity and simplicity.</p>
-    <ul>
-      <li>Life is not a race — there’s a time for every moment 👌</li>
-      <li>Failing is part of the process — trust and evaluate 📈</li>
-      <li>Always be resilient — life is tough 💪</li>
-    </ul>
-  </section>
-
-  <section id="projects" class="fade-section">
-    <h2>💻 Projects</h2>
-    <ul>
-      <li>Midterm Lab Task 1 – Paired Task</li>
-      <li>Midterm Lab Task 2 – Using Loops and Functions</li>
-      <li>Midterm Lab Task 3 – Using List Collection Types</li>
-      <li>Midterm Lab Task 4 – Using Dictionaries</li>
-      <li>Midterm Lab Task 5 – Creating Classes and Objects</li>
-      <li>Finals Lab Task 1 – A Car that Works (Encapsulation)</li>
-    </ul>
-  </section>
-
-  <section id="skills" class="fade-section">
-    <h2>⌨️ PROGRAMMING LANGUAGES</h2>
-    <div class="badges">
-      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=4B0082">
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&color=191970">
-      <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white&color=00FFFF">
+  <section id="home" class="section fade-in">
+    <div class="intro">
+      <img src="assets/IMG.jpg" alt="Profile picture" class="profile-pic">
+      <h1>Hi! I'm Kurt👋</h1>
+      <p>Welcome to my Object-Oriented Programming Portfolio! A reflection of my growth, logic, and code creativity.</p>
     </div>
-    </section>
+  </section>
 
-  <section id="skills" class="fade-section">
-    <h2>📌 Skill Tree</h2>
+  <section id="about" class="section fade-in">
+    <h2>💾 ABOUT ME</h2>
+    <p>I am a Computer Science student at City College of Angeles, focused on systems and logic. I pursue my interests passionately with a positive and quiet mindset.</p>
     <ul>
-      <li>Time Management</li>
-      <li>Adaptability</li>
-      <li>Positive Attitude</li>
-      <li>Active Listener</li>
+      <li>Life is not a race; there is always time for every moment 👌</li>
+      <li>Failing is part of the process; trust and evaluate progress 📈</li>
+      <li>Always be resilient, life is tough 💪</li>
     </ul>
   </section>
 
-  <section id="contact" class="fade-section">
-    <h2>📞 Contacts</h2>
-    <a href="mailto:jtorres24-0064@cca.edu.ph">Email</a> |
-    <a href="https://www.facebook.com/torresjustine.kurt">Facebook</a>
+  <section id="academic" class="section fade-in">
+    <h2>🎓 ACADEMIC</h2>
+    <p><strong>Senior Highschool:</strong> Angeles City National Trade School (CSS Strand) 👨‍💻</p>
+    <p><strong>Junior Highschool:</strong> Angeles City National Trade School</p>
+    <p><strong>Elementary:</strong> Sto. Rosario Elementary School</p>
   </section>
 
-  <footer class="fade-section">
-    <p>© 2025 Torres Justine Kurt</p>
-  </footer>
+  <section id="projects" class="section fade-in">
+    <h2>💻 MY PROJECTS</h2>
+    <ul>
+      <li><button class="project-link" data-open="mid1">MIDTERM LAB TASK 1 — Paired Task</button></li>
+      <li><button class="project-link" data-open="mid2">MIDTERM LAB TASK 2 — Using Loops and Functions</button></li>
+      <li><button class="project-link" data-open="mid3">MIDTERM LAB TASK 3 — Using List Collection Types</button></li>
+      <li><button class="project-link" data-open="mid4">MIDTERM LAB TASK 4 — Using Dictionaries</button></li>
+      <li><button class="project-link" data-open="mid5">MIDTERM LAB TASK 5 — Class and Objects in Python</button></li>
+      <li><button class="project-link" data-open="fin1">FINALS LAB TASK 1 — A Car that Works (Encapsulation)</button></li>
+    </ul>
+  </section>
+
+  <section id="skills" class="section fade-in">
+    <h2>📌 SKILL TREE</h2>
+    <ul>
+      <li>Time Management 🕰️</li>
+      <li>Adaptability 🔄</li>
+      <li>Positive Attitude 😊</li>
+      <li>Active Listener 👂</li>
+    </ul>
+
+    <h2></h2>
+    <div class="language-icons">
+      <img src="assets/python.svg" alt="Python" class="icon-3d">
+      <img src="assets/c.svg" alt="C" class="icon-3d">
+      <img src="assets/java.svg" alt="Java" class="icon-3d">
+      <img src="assets/html.svg" alt="HTML" class="icon-3d">
+      <img src="assets/css.svg" alt="CSS" class="icon-3d">
+      <img src="assets/javascript.svg" alt="JavaScript" class="icon-3d">
+    </div>
+  </section>
+
+  <section id="funfacts" class="section fade-in">
+    <h2>🤩 FUN FACTS_</h2>
+    <div class="funfacts">
+      <div class="fact">🎧 I love listening to music</div>
+      <div class="fact">🎮 I’m interested in various online mobile games</div>
+      <div class="fact">💪 I’m interested in martial arts</div>
+      <div class="fact">😆 Sometimes quiet, sometimes noisy</div>
+      <div class="fact">😅 Easily distracted by tutorials online</div>
+      <div class="fact">⚡ Love futuristic designs</div>
+      <div class="fact">🚀 Dreaming to code AI someday</div>
+      <div class="fact">🧠 Learning one line of code at a time</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2>📞 CONTACTS</h2>
+    <div class="contact-icons">
+      <a href="mailto:jtorres24-0064@cca.edu.ph" target="_blank">
+        <img src="assets/gmail.svg" alt="Gmail" class="icon-3d">
+      </a>
+      <a href="https://www.facebook.com/torresjustine.kurt" target="_blank">
+        <img src="assets/facebook.svg" alt="Facebook" class="icon-3d">
+      </a>
+    </div>
+  </section>
+
+  
+  <!-- Midterm Lab Task 1 -->
+  <div class="modal" id="modal-mid1" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-mid1">✖</button>
+      <h3>MIDTERM LAB TASK 1 — Paired Task</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask1.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Midterm Lab Task 2 -->
+  <div class="modal" id="modal-mid2" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-mid2">✖</button>
+      <h3>MIDTERM LAB TASK 2 — Using Loops and Functions</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/MidtermLabTask2.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Midterm Lab Task 3 -->
+  <div class="modal" id="modal-mid3" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-mid3">✖</button>
+      <h3>MIDTERM LAB TASK 3 — Using List Collection Types</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/MidtermLabTask3.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Midterm Lab Task 4 -->
+  <div class="modal" id="modal-mid4" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-mid4">✖</button>
+      <h3>MIDTERM LAB TASK 4 — Using Dictionaries</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/MidtermLabTask4.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Midterm Lab Task 5 -->
+  <div class="modal" id="modal-mid5" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-mid5">✖</button>
+      <h3>MIDTERM LAB TASK 5 — Creating Class and Instantiating Objects in Python</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/MidtermLabTask5.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Finals Lab Task 1 -->
+  <div class="modal" id="modal-fin1" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" data-target="modal-fin1">✖</button>
+      <h3>FINALS LAB TASK 1 — A Car that Works (Encapsulation)</h3>
+      <iframe src="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/FinalsLabTask1.pdf" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 
   <script>
-    function scrollToSection(id) {
-      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
-    }
-
     
-    const sections = document.querySelectorAll('.fade-section');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, { threshold: 0.2 });
+    (function(){
+      function openModal(id){
+        const m = document.getElementById(id);
+        if(!m) return;
+        m.setAttribute('aria-hidden','false');
+        document.body.classList.add('modal-open');
+        m.classList.add('open');
+      }
+      function closeModal(id){
+        const m = document.getElementById(id);
+        if(!m) return;
+        m.setAttribute('aria-hidden','true');
+        m.classList.remove('open');
+        document.body.classList.remove('modal-open');
+      }
 
-    sections.forEach(sec => observer.observe(sec));
+      
+      const projMap = {
+        'mid1': 'modal-mid1',
+        'mid2': 'modal-mid2',
+        'mid3': 'modal-mid3',
+        'mid4': 'modal-mid4',
+        'mid5': 'modal-mid5',
+        'fin1': 'modal-fin1'
+      };
+
+      document.querySelectorAll('[data-open]').forEach(btn=>{
+        btn.addEventListener('click', e=>{
+          const key = btn.getAttribute('data-open');
+          const id = projMap[key];
+          openModal(id);
+        });
+      });
+
+      
+      document.querySelectorAll('.modal-close').forEach(b=>{
+        b.addEventListener('click', ()=> closeModal(b.getAttribute('data-target')) );
+      });
+
+      
+      document.querySelectorAll('.modal').forEach(m=>{
+        m.querySelector('.modal-backdrop').addEventListener('click', ()=> closeModal(m.id));
+      });
+
+      
+      document.addEventListener('keydown', (e)=>{
+        if(e.key==='Escape') document.querySelectorAll('.modal.open').forEach(m=> closeModal(m.id));
+      });
+    })();
   </script>
 </body>
 </html>
