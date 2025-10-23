@@ -81,7 +81,7 @@ The key to success is by <span style="color:#00FFFF; text-shadow: 0 0 5px #00FFF
 
 <h3 style="color:#A020F0; text-shadow: 0 0 3px #A020F0;">:: Finals Assignments</h3>
 <ul style="color:#ADD8E6;">
-    <li><strong style="color:#00FFFF;">FINALS LAB TASK 1:</strong> <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/FinalsLabTask1.pdf" style="color:#ADD8E6; text-shadow: 0 0 1px #8A2BE2;">[<span style="color:#8A2BE2;">📂</span> *A Car that Works (Encapsulation)*]</a></li>
+    <li><strong style="color:#00FFFF;">FINALS LAB TASK 1:</strong> <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/FinalsLabTask1.pdf" style="color:#ADD8E6; text-shadow: 0 0 1px #8A2BE2;">[<span style="color:#8A2BE2;">📂</span> A Car that Works (Encapsulation)]</a></li>
 </ul>
 
 ---
