@@ -1,249 +1,266 @@
-<!DOCTYPE html>
+<!-- INDEX.HTML -->
+
+<!-- Save this as index.html in your repo root -->
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Torres Justine Kurt | OOP Portfolio</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Torres Justine Kurt — Cyber Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="cyber-particles"></div>
-  <header>
-    <nav class="navbar">
-      <a href="#home" class="nav-btn">Home</a>
-      <a href="#about" class="nav-btn">About</a>
-      <a href="#skills" class="nav-btn">Skills</a>
-      <a href="#contact" class="nav-btn">Contacts</a>
-    </nav>
-  </header>
 
-  <section id="home" class="section fade-in">
-    <div class="intro">
-      <img src="assets/IMG.jpg" alt="Profile picture" class="profile-pic">
-      <h1>Hi! I'm Kurt👋</h1>
-      <p>Welcome to my Object-Oriented Programming Portfolio! A reflection of my growth, logic, and code creativity.</p>
-    </div>
-  </section>
+  <!-- Stage background elements -->
+  <div class="stage" aria-hidden="true">
+    <div class="matrix"></div>
+    <div class="nebula"></div>
+  </div>
 
-  <section id="about" class="section fade-in">
-    <h2>💾 ABOUT ME</h2>
-    <p>I am a Computer Science student at City College of Angeles, focused on systems and logic. I pursue my interests passionately with a positive and quiet mindset.</p>
-    <ul>
-      <li>Life is not a race; there is always time for every moment 👌</li>
-      <li>Failing is part of the process; trust and evaluate progress 📈</li>
-      <li>Always be resilient, life is tough 💪</li>
-    </ul>
-  </section>
+  <main class="container">
+    <header>
+      <div class="capsule">
+        <img src="https://capsule-render.vercel.app/api?type=waving&height=120&text=Torres%20Justine%20Kurt&fontAlign=50&fontSize=46&fontColor=00FFFF&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=65&descSize=14&animation=fadeIn&color=000033,4B0082,191970&textBg=false&reversal=false" alt="banner" style="width:100%;border-radius:8px;display:block;margin:0 auto 6px;"/>
+      </div>
 
-  <section id="academic" class="section fade-in">
-    <h2>🎓 ACADEMIC</h2>
-    <p><strong>Senior Highschool:</strong> Angeles City National Trade School (CSS Strand) 👨‍💻</p>
-    <p><strong>Junior Highschool:</strong> Angeles City National Trade School</p>
-    <p><strong>Elementary:</strong> Sto. Rosario Elementary School</p>
-  </section>
+      <div class="title">Torres Justine Kurt</div>
+      <div class="subtitle">Hello! I'm Kurt <span aria-hidden>👋</span></div>
 
-  <section id="projects" class="section fade-in">
-    <h2>💻 MY PROJECTS</h2>
-    <ul>
-      <li><button class="project-link" data-open="mid1">MIDTERM LAB TASK 1 — Paired Task</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask1.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask1.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-      <li><button class="project-link" data-open="mid2">MIDTERM LAB TASK 2 — Using Loops and Functions</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask2.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask2.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-      <li><button class="project-link" data-open="mid3">MIDTERM LAB TASK 3 — Using List Collection Types</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask3.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask3.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-      <li><button class="project-link" data-open="mid4">MIDTERM LAB TASK 4 — Using Dictionaries</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask4.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask4.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-      <li><button class="project-link" data-open="mid5">MIDTERM LAB TASK 5 — Class and Objects in Python</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask5.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/MidtermLabTask5.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-      <li><button class="project-link" data-open="fin1">FINALS LAB TASK 1 — A Car that Works (Encapsulation)</button>
-      <a href="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/FinalsLabTask1.pdf" 
-     data-pdf="https://raw.githubusercontent.com/Justine-Kurt-Torres/7OOP-Lab-Task/main/assets/FinalsLabTask1.pdf" 
-     class="pdf-link">[📂 View File]</a>
-      </li>
-    </ul>
-  </section>
+      <div class="nav" style="margin-top:10px">
+        <button class="btn" data-target="about">Home</button>
+        <button class="btn" data-target="projects">Projects</button>
+        <button class="btn" data-target="skills">Skills</button>
+        <button class="btn" data-target="contact">Contact</button>
+      </div>
 
-  <section id="skills" class="section fade-in">
-    <h2>📌 PERSONAL SKILLS</h2>
-    <ul>
-      <li>Time Management 🕰️</li>
-      <li>Adaptability 🔄</li>
-      <li>Positive Attitude 😊</li>
-      <li>Active Listener 👂</li>
-    </ul>
+    </header>
 
-    <h2>PROGRAMMING LANGUAGES</h2>
-    <div class="language-icons">
-      <img src="assets/python.svg" alt="Python" class="icon-3d">
-      <img src="assets/c.svg" alt="C" class="icon-3d">
-      <img src="assets/Java.svg" alt="Java" class="icon-3d">
-      <img src="assets/html5.svg" alt="HTML" class="icon-3d">
-      <img src="assets/css.svg" alt="CSS" class="icon-3d">
-      <img src="assets/javascript.svg" alt="JavaScript" class="icon-3d">
-    </div>
-  </section>
+    <!-- Profile -->
+    <section class="profile fade-section" id="about">
+      <div class="avatar-wrap">
+        <img class="avatar" src="assets/IMG.jpg" alt="Profile photo">
+      </div>
 
-  <section id="funfacts" class="section fade-in">
-    <h2>🤩 FUN FACTS_</h2>
-    <div class="funfacts">
-      <div class="fact">🎧 I love listening to music</div>
-      <div class="fact">🎮 I’m interested in various online mobile games</div>
-      <div class="fact">💪 I’m interested in martial arts</div>
-      <div class="fact">😆 Sometimes quiet, sometimes noisy</div>
-      <div class="fact">😅 Easily distracted by tutorials online</div>
-      <div class="fact">⚡ Love futuristic designs</div>
-      <div class="fact">🚀 Dreaming to code AI someday</div>
-      <div class="fact">🧠 Learning one line of code at a time</div>
-    </div>
-  </section>
+      <div class="intro">
+        <p class="muted">Welcome to my Object-Oriented Programming Portfolio! This repository acts as a digital log of my OOP Lab exercises, emphasizing the principles I've learned and applied to various challenges and projects. This will reflect my progress and understanding throughout the subject.</p>
 
-  <section id="contact" class="section fade-in">
-    <h2>📞 CONTACTS</h2>
-    <div class="contact-icons">
-      <a href="mailto:jtorres24-0064@cca.edu.ph" target="_blank">
-        <img src="assets/gmail.svg" alt="Gmail" class="icon-3d">
-      </a>
-      <a href="https://www.facebook.com/torresjustine.kurt" target="_blank">
-        <img src="assets/facebook.svg" alt="Facebook" class="icon-3d">
-      </a>
-    </div>
-  </section>
+        <div style="margin-top:12px">
+          <strong style="color:var(--cyan)">💾 ABOUT ME</strong>
+          <p class="muted" style="margin:6px 0">I am a Computer Science student in City College of Angeles, focused on systems and logic. I enthusiastically pursue what captures my interest, maintaining a positive, simple, and quiet approach to my work.</p>
 
+          <h4 style="color:var(--purple);margin:8px 0 6px;">:: Core Directives</h4>
+          <ul style="color:var(--muted);margin:0 0 6px 18px">
+            <li>Life is not a race, Don't rush, there is always a time for every moment <span style="color:var(--cyan)">👌</span></li>
+            <li>Failing is part of the process, so trust the process and evaluate progress. <span style="color:var(--cyan)">📈</span></li>
+            <li>Always be Resilient, Life is tough. <span style="color:var(--cyan)">💪</span></li>
+          </ul>
 
-  <div class="project-card" data-pdf="assets/MidtermLabTask1.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+          <p class="muted" style="margin-top:8px">The key to success is by <strong style="color:var(--cyan)">always learning and improving</strong>, maintaining balance in your life, and always grabbing every opportunity that comes right in front of your door.</p>
+        </div>
+      </div>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+    </section>
 
-  <!-- Midterm Lab Task 2 -->
-  <div class="project-card" data-pdf="assets/MidtermLabTask2.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+    <!-- Academic -->
+    <section class="card fade-section" id="academic">
+      <h2>🎓 ACADEMIC</h2>
+      <p class="muted"><strong>Senior Highschool:</strong> <em>Angeles City National Trade School (CSS Strand)</em> 👨‍💻</p>
+      <p class="muted"><strong>Junior Highschool:</strong> <em>Angeles City National Trade School</em></p>
+      <p class="muted"><strong>Elementary:</strong> <em>Sto. Rosario Elementary School</em></p>
+    </section>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+    <!-- Programming languages with 3D SVG icons -->
+    <section class="card fade-section" id="skills">
+      <h2>⌨️ PROGRAMMING LANGUAGES</h2>
+      <div class="icons" style="margin-top:12px">
 
-  <!-- Midterm Lab Task 3 -->
-  <div class="project-card" data-pdf="assets/MidtermLabTask3.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+        <!-- Python -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="pyg1" x1="0" x2="1"><stop offset="0" stop-color="#306998"/><stop offset="1" stop-color="#00C8FF"/></linearGradient>
+              <linearGradient id="pyg2" x1="0" x2="1"><stop offset="0" stop-color="#FFD43B"/><stop offset="1" stop-color="#FF8A00"/></linearGradient>
+            </defs>
+            <g class="svg-layer l1">
+              <path d="M64 8c-14 0-24 9-24 9v24h48V17s-7-9-24-9z" fill="url(#pyg1)"/>
+            </g>
+            <g class="svg-layer l2">
+              <path d="M64 120c14 0 24-9 24-9V87H40v24s7 9 24 9z" fill="url(#pyg2)"/>
+            </g>
+            <g class="svg-layer l3">
+              <circle cx="88" cy="28" r="6" fill="#fff" opacity="0.95"/>
+              <circle cx="40" cy="100" r="6" fill="#fff" opacity="0.95"/>
+            </g>
+          </svg>
+        </div>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+        <!-- C -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="cg" x1="0" x2="1"><stop offset="0" stop-color="#00599C"/><stop offset="1" stop-color="#00FFFF"/></linearGradient>
+            </defs>
+            <g class="svg-layer l1"><path d="M76 50c0 15-12 27-26 27-9 0-16-4-22-9 6 8 15 12 26 12 16 0 28-12 28-30 0-16-10-28-26-30 8 2 20 11 20 20z" fill="url(#cg)"/></g>
+            <g class="svg-layer l3"><circle cx="36" cy="36" r="3" fill="#fff"/></g>
+          </svg>
+        </div>
 
-  <!-- Midterm Lab Task 4 -->
-  <div class="project-card" data-pdf="assets/MidtermLabTask4.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+        <!-- Java -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <defs>
+              <linearGradient id="jv1" x1="0" x2="1"><stop offset="0" stop-color="#E76F00"/><stop offset="1" stop-color="#FFB86B"/></linearGradient>
+            </defs>
+            <g class="svg-layer l1"><path d="M76 16s-14 10-16 22c0 12 14 14 20 28 2 4 6 6 12 6 6 0 8-2 8-6 0-10-8-28-24-40 0 0-6-12 0-10z" fill="url(#jv1)"/></g>
+            <g class="svg-layer l2"><path d="M44 84c-6-8 2-12 10-16-6 8 4 18 12 22-12 6-20 4-22-6z" fill="#b33" opacity="0.9"/></g>
+          </svg>
+        </div>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+        <!-- HTML -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <defs><linearGradient id="htmlg" x1="0" x2="1"><stop offset="0" stop-color="#E44D26"/><stop offset="1" stop-color="#F16529"/></linearGradient></defs>
+            <g class="svg-layer l1"><path d="M18 10l8 90 38 10 38-10 8-90H18z" fill="url(#htmlg)"/></g>
+            <g class="svg-layer l2"><path d="M64 110v-24l18-5 2 20-20 9z" fill="#fff" opacity="0.92"/></g>
+          </svg>
+        </div>
 
-  <!-- Midterm Lab Task 5 -->
-  <div class="project-card" data-pdf="assets/MidtermLabTask5.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+        <!-- CSS -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="cssg" x1="0" x2="1"><stop offset="0" stop-color="#2965f1"/><stop offset="1" stop-color="#00C8FF"/></linearGradient></defs>
+            <g class="svg-layer l1"><path d="M18 10l8 90 38 10 38-10 8-90H18z" fill="url(#cssg)"/></g>
+            <g class="svg-layer l2"><path d="M64 100v-34h18l-2 22-16 12z" fill="#fff" opacity="0.9"/></g>
+          </svg>
+        </div>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+        <!-- JS -->
+        <div class="icon-wrap">
+          <svg class="icon" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="jsg" x1="0" x2="1"><stop offset="0" stop-color="#F7DF1E"/><stop offset="1" stop-color="#FFD54A"/></linearGradient></defs>
+            <g class="svg-layer l1"><rect x="18" y="18" width="92" height="92" rx="8" fill="url(#jsg)"/></g>
+            <g class="svg-layer l2"><text x="40" y="86" font-size="46" font-weight="700" fill="#333">JS</text></g>
+          </svg>
+        </div>
 
+      </div>
+    </section>
 
-  <!-- Finals Lab Task 1 -->
-  <div class="project-card" data-pdf="assets/FinalsLabTask1.pdf">
-  <h3>Midterm Lab Task 1</h3>
-</div>
+    <!-- Projects -->
+    <section class="card fade-section" id="projects">
+      <h2>💻 MY PROJECTS</h2>
+      <div class="muted" style="margin-top:8px">
+        <h4 style="color:var(--purple);margin:4px 0">:: Midterm Assignments</h4>
+        <ul>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask1.pdf" target="_blank" rel="noopener" style="color:var(--muted)">MIDTERM LAB TASK 1 — Paired Task</a></li>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask2.pdf" target="_blank" rel="noopener" style="color:var(--muted)">MIDTERM LAB TASK 2 — Using Loops and Functions</a></li>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask3.pdf" target="_blank" rel="noopener" style="color:var(--muted)">MIDTERM LAB TASK 3 — Using List Collection Types</a></li>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask4.pdf" target="_blank" rel="noopener" style="color:var(--muted)">MIDTERM LAB TASK 4 — Using Dictionaries</a></li>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/MidtermLabTask5.pdf" target="_blank" rel="noopener" style="color:var(--muted)">MIDTERM LAB TASK 5 — Creating Class and Instantiating Objects in Python</a></li>
+        </ul>
 
-<!-- Modal -->
-<div id="pdfModal" class="modal">
-  <span class="close">&times;</span>
-  <iframe id="pdfViewer" class="modal-content"></iframe>
-</div>
+        <h4 style="color:var(--purple);margin:8px 0">:: Finals Assignments</h4>
+        <ul>
+          <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/FinalsLabTask1.pdf" target="_blank" rel="noopener" style="color:var(--muted)">FINALS LAB TASK 1 — A Car that Works (Encapsulation)</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skill Tree -->
+    <section class="card fade-section" id="skilltree">
+      <h2>📌 SKILL TREE</h2>
+      <ul class="muted">
+        <li><strong style="color:var(--cyan)">Time Management</strong> 🕰️</li>
+        <li><strong style="color:var(--cyan)">Adaptability</strong> 🔄</li>
+        <li><strong style="color:var(--cyan)">Positive Attitude</strong> 😊</li>
+        <li><strong style="color:var(--cyan)">Active Listener</strong> 👂</li>
+      </ul>
+    </section>
+
+    <!-- Fun Facts (after skill tree) -->
+    <section class="card fade-section" id="funfacts">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div class="typing"><span class="term">FUN FACTS</span><span class="cursor" aria-hidden></span></div>
+        <div style="color:var(--muted);font-size:0.95rem">Hover cards to see the subtle glow ✨</div>
+      </div>
+
+      <div class="facts-grid">
+        <div class="fact">
+          <h4>🎧 I love listening to music</h4>
+          <p>Music fuels my focus while coding and studying.</p>
+        </div>
+        <div class="fact">
+          <h4>🎮 I enjoy online mobile games</h4>
+          <p>Gaming sharpens my reflexes and strategic thinking.</p>
+        </div>
+        <div class="fact">
+          <h4>💪 I practice martial arts</h4>
+          <p>Discipline and persistence from training help my studies.</p>
+        </div>
+        <div class="fact">
+          <h4>😆 Sometimes I'm quiet, sometimes noisy</h4>
+          <p>My mood varies — balance keeps creativity flowing.</p>
+        </div>
+        <div class="fact">
+          <h4>😅 Easily distracted by tutorials</h4>
+          <p>There's always one more cool tutorial to explore.</p>
+        </div>
+
+        <!-- new animated facts -->
+        <div class="fact">
+          <h4>🧠 I solve logic puzzles</h4>
+          <p>Puzzles reboot my brain circuits and keep my algorithms sharp.</p>
+        </div>
+        <div class="fact">
+          <h4>🪐 Future tech enthusiast</h4>
+          <p>I love exploring futuristic tech concepts and ideas.</p>
+        </div>
+        <div class="fact">
+          <h4>💡 Midnight coder</h4>
+          <p>My creativity glows brightest after midnight — that's when ideas align.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacts (with 3D SVG Gmail & Facebook) -->
+    <section class="card fade-section" id="contact">
+      <h2>📞 CONTACTS</h2>
+      <div class="contacts" style="margin-top:10px">
+
+        <!-- Gmail -->
+        <a class="contact-link" href="mailto:jtorres24-0064@cca.edu.ph" title="Email: jtorres24-0064@cca.edu.ph">
+          <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden>
+            <defs>
+              <linearGradient id="mailg" x1="0" x2="1"><stop offset="0" stop-color="#ff6b6b"/><stop offset="1" stop-color="#ffb86b"/></linearGradient>
+            </defs>
+            <g class="svg-layer l1"><rect x="1" y="4" width="22" height="16" rx="2" fill="url(#mailg)"/></g>
+            <g class="svg-layer l2"><path d="M3 6l9 7 9-7" stroke="#fff" stroke-width="1.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+          </svg>
+        </a>
+
+        <!-- Facebook -->
+        <a class="contact-link" href="https://www.facebook.com/torresjustine.kurt" target="_blank" rel="noopener" title="Facebook">
+          <svg class="icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="fbg" x1="0" x2="1"><stop offset="0" stop-color="#1877f2"/><stop offset="1" stop-color="#4b6bd6"/></linearGradient>
+            </defs>
+            <g class="svg-layer l1"><rect x="2" y="2" width="20" height="20" rx="3" fill="url(#fbg)"/></g>
+            <g class="svg-layer l2"><path d="M15 8h-2c-1 0-1 1-1 1v2h3l-1 3h-2v6h-3v-6H8v-3h2V9c0-2 1-3 3-3h2v2z" fill="#fff"/></g>
+          </svg>
+        </a>
+
+      </div>
+    </section>
+
+    <footer>
+      <small>⚡ Designed in Cyber Neon Theme — by Torres Justine Kurt • Generated 2025</small>
+    </footer>
+
+  </main>
 
   <script src="script.js"></script>
-
-  <script>
-    
-    (function(){
-      function openModal(id){
-        const m = document.getElementById(id);
-        if(!m) return;
-        m.setAttribute('aria-hidden','false');
-        document.body.classList.add('modal-open');
-        m.classList.add('open');
-      }
-      function closeModal(id){
-        const m = document.getElementById(id);
-        if(!m) return;
-        m.setAttribute('aria-hidden','true');
-        m.classList.remove('open');
-        document.body.classList.remove('modal-open');
-      }
-
-      
-      const projMap = {
-        'mid1': 'modal-mid1',
-        'mid2': 'modal-mid2',
-        'mid3': 'modal-mid3',
-        'mid4': 'modal-mid4',
-        'mid5': 'modal-mid5',
-        'fin1': 'modal-fin1'
-      };
-
-      document.querySelectorAll('[data-open]').forEach(btn=>{
-        btn.addEventListener('click', e=>{
-          const key = btn.getAttribute('data-open');
-          const id = projMap[key];
-          openModal(id);
-        });
-      });
-
-      
-      document.querySelectorAll('.modal-close').forEach(b=>{
-        b.addEventListener('click', ()=> closeModal(b.getAttribute('data-target')) );
-      });
-
-      
-      document.querySelectorAll('.modal').forEach(m=>{
-        m.querySelector('.modal-backdrop').addEventListener('click', ()=> closeModal(m.id));
-      });
-
-      
-      document.addEventListener('keydown', (e)=>{
-        if(e.key==='Escape') document.querySelectorAll('.modal.open').forEach(m=> closeModal(m.id));
-      });
-    })();
-  </script>
 </body>
 </html>
+
+
+
