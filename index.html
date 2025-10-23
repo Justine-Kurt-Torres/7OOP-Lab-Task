@@ -5,23 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Torres Justine Kurt | OOP Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
 </head>
 <body>
   <div class="cyber-bg"></div>
-  <header>
+
+  <header class="fade-section">
     <h1>Torres Justine Kurt</h1>
-    <p>OOP Portfolio</p>
+    <p class="subtitle">OOP PORTFOLIO</p>
+    <nav>
+      <button class="nav-btn" onclick="scrollToSection('about')">About Me</button>
+      <button class="nav-btn" onclick="scrollToSection('projects')">Projects</button>
+      <button class="nav-btn" onclick="scrollToSection('skills')">Skills</button>
+      <button class="nav-btn" onclick="scrollToSection('contact')">Contact</button>
+    </nav>
   </header>
 
-  <section class="profile">
-    <img src="assets/IMG.jpg" alt="Profile photo">
-    <h2>Hello! I'm Kurt 👋</h2>
-    <p>Welcome to my Object-Oriented Programming Portfolio! This repository acts as a digital log of my OOP Lab exercises, emphasizing the principles I've learned and applied.</p>
-  </section>
-
-  <section class="about">
-    <h2>💾 ABOUT ME</h2>
+  <section id="about" class="fade-section">
+    <h2>💾 About Me</h2>
+    <img src="assets/IMG.jpg" alt="Profile" class="profile-img">
     <p>I am a Computer Science student at City College of Angeles, focused on systems and logic. I pursue what captures my interest with positivity and simplicity.</p>
     <ul>
       <li>Life is not a race — there’s a time for every moment 👌</li>
@@ -30,42 +31,63 @@
     </ul>
   </section>
 
-  <section class="academic">
-    <h2>🎓 ACADEMIC</h2>
-    <p><strong>Senior Highschool:</strong> Angeles City National Trade School (CSS Strand)</p>
-    <p><strong>Junior Highschool:</strong> Angeles City National Trade School</p>
-    <p><strong>Elementary:</strong> Sto. Rosario Elementary School</p>
+  <section id="projects" class="fade-section">
+    <h2>💻 Projects</h2>
+    <ul>
+      <li>Midterm Lab Task 1 – Paired Task</li>
+      <li>Midterm Lab Task 2 – Using Loops and Functions</li>
+      <li>Midterm Lab Task 3 – Using List Collection Types</li>
+      <li>Midterm Lab Task 4 – Using Dictionaries</li>
+      <li>Midterm Lab Task 5 – Creating Classes and Objects</li>
+      <li>Finals Lab Task 1 – A Car that Works (Encapsulation)</li>
+    </ul>
   </section>
 
-  <section class="skills">
+  <section id="skills" class="fade-section">
     <h2>⌨️ PROGRAMMING LANGUAGES</h2>
     <div class="badges">
       <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white&color=4B0082">
       <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white&color=191970">
       <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white&color=00FFFF">
     </div>
-  </section>
+    </section>
 
-  <section class="projects">
-    <h2>💻 MY PROJECTS</h2>
+  <section id="skills" class="fade-section">
+    <h2>📌 Skill Tree</h2>
     <ul>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask1.pdf">📂 Midterm Lab Task 1 — Paired Task</a></li>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask2.pdf">📂 Midterm Lab Task 2 — Loops and Functions</a></li>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask3.pdf">📂 Midterm Lab Task 3 — List Collection Types</a></li>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask4.pdf">📂 Midterm Lab Task 4 — Dictionaries</a></li>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask5.pdf">📂 Midterm Lab Task 5 — Classes & Objects</a></li>
-      <li><a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/FinalsLabTask1.pdf">📂 Finals Lab Task 1 — Encapsulation</a></li>
+      <li>Time Management</li>
+      <li>Adaptability</li>
+      <li>Positive Attitude</li>
+      <li>Active Listener</li>
     </ul>
   </section>
 
-  <section class="contacts">
-    <h2>📞 CONTACTS</h2>
-    <a href="mailto:jtorres24-0064@cca.edu.ph">📧 Email</a> |
-    <a href="https://www.facebook.com/torresjustine.kurt">📘 Facebook</a>
+  <section id="contact" class="fade-section">
+    <h2>📞 Contacts</h2>
+    <a href="mailto:jtorres24-0064@cca.edu.ph">Email</a> |
+    <a href="https://www.facebook.com/torresjustine.kurt">Facebook</a>
   </section>
 
-  <footer>
+  <footer class="fade-section">
     <p>© 2025 Torres Justine Kurt</p>
   </footer>
+
+  <script>
+    function scrollToSection(id) {
+      document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+    }
+
+    
+    const sections = document.querySelectorAll('.fade-section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    sections.forEach(sec => observer.observe(sec));
+  </script>
 </body>
 </html>
