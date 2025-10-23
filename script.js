@@ -26,6 +26,16 @@ const observer = new IntersectionObserver((entries) => {
 
 fadeElements.forEach(el => observer.observe(el));
 
+const particlesContainer = document.getElementById('cyber-particles');
+for (let i = 0; i < 25; i++) {
+  const particle = document.createElement('div');
+  particle.classList.add('particle');
+  particle.style.left = Math.random() * 100 + 'vw';
+  particle.style.animationDuration = 5 + Math.random() * 10 + 's';
+  particle.style.animationDelay = Math.random() * 5 + 's';
+  particlesContainer.appendChild(particle);
+}
+
 
 // ===== Modal PDF Viewer =====
 document.querySelectorAll('.project-card').forEach(card => {
