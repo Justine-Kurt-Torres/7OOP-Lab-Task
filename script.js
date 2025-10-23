@@ -27,14 +27,21 @@ const observer = new IntersectionObserver((entries) => {
 fadeElements.forEach(el => observer.observe(el));
 
 
-const modals = document.querySelectorAll('.modal');
-const openButtons = document.querySelectorAll('.project-btn');
-const closeButtons = document.querySelectorAll('.close-modal');
+// ===== Modal PDF Viewer =====
+document.querySelectorAll('.project-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const modal = document.getElementById('pdfModal');
+    const pdfFrame = document.getElementById('pdfViewer');
+    const pdfUrl = card.dataset.pdf;
+    pdfFrame.src = pdfUrl;
+    modal.style.display = 'block';
+  });
+});
 
-openButtons.forEach((btn, index) => {
-  btn.addEventListener('click', () => {
-    const modal = modals[index];
-    modal.classList.add('active');
+document.querySelector('.close').addEventListener('click', () => {
+  document.getElementById('pdfModal').style.display = 'none';
+  document.getElementById('pdfViewer').src = '';
+});
 
    
     document.body.style.overflow = 'hidden';
