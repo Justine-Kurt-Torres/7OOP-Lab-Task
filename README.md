@@ -4,12 +4,12 @@
 
 ---
 
-<p align="center">
+<div align="center">
     <img src="assets/IMG.jpg"
         alt="Profile picture"
         width="200"
         height="300"/>
-</p>
+</div>
 
 <h1 align="center"></h1>
 
