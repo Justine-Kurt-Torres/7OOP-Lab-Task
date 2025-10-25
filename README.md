@@ -8,8 +8,7 @@
     <img src="assets/IMG.jpg"
         alt="Profile picture"
         width="200"
-        height="300"
-        style="border-radius:10%/>
+        height="300"/>
 </p>
 
 <h1 align="center"></h1>
