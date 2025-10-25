@@ -7,8 +7,8 @@
 <div align="center">
     <img src="assets/IMG.jpg"
         alt="Profile picture"
-        width="200"
-        height="300"/>
+        width="225"
+        height="275"/>
 </div>
 
 <h1 align="center"></h1>
@@ -24,7 +24,7 @@ This will reflect my progress and understanding throughout the subject.
 
 ---
 
-## 💾 ABOUT ME
+## 🕵️‍♂️ ABOUT ME
 
 <p>
 I am a Computer Science student in City College of Angeles, focused on systems and logic. I enthusiastically pursue what captures my interest, maintaining a positive, simple, and quiet approach to my work.
