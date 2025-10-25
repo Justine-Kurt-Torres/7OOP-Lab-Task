@@ -46,7 +46,7 @@ The key to success is by <em>always learning and improving</em>, maintaining bal
 ## 🎓 ACADEMIC
 <ul>
     <li><strong>Senior Highschool:</strong> <em>Angeles City National Trade School (CSS Strand)</em>👨‍💻</li>
-    <li><strong>Junior Highschool:</strong> <em">Angeles City National Trade School</em></li>
+    <li><strong>Junior Highschool:</strong> <em>Angeles City National Trade School</em></li>
     <li><strong>Elementary:</strong> <em>Sto. Rosario Elementary School</em></li>
 </ul>
 
