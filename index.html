@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurt Torres | OOP Portfolio</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* ================= GLOBAL ================= */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            background: radial-gradient(circle at top, #000014, #000010);
+            color: #dff6ff;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Orbitron', sans-serif;
+            color: #00eaff;
+        }
+
+        a {
+            text-decoration: none;
+            color: #00eaff;
+        }
+
+        /* ================= NAVIGATION BAR ================= */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(0,0,30,0.85);
+            border-bottom: 2px solid #00eaff;
+            padding: 15px 0;
+            z-index: 10;
+            backdrop-filter: blur(6px);
+            box-shadow: 0 0 20px #00eaff55;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            font-family: 'Orbitron';
+            letter-spacing: 1px;
+            color: #00eaff;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #7fbfff;
+            text-shadow: 0 0 10px #00eaff;
+        }
+
+        /* ================= SECTION FRAMES ================= */
+        section {
+            margin: 90px auto;
+            padding: 50px 50px;
+            width: 75%;
+            background: rgba(5, 5, 20, 0.55);
+            border: 2px solid #00eaff;
+            border-radius: 15px;
+            box-shadow: 0 0 25px #00eaff33;
+        }
+
+        /* ================= PROFILE IMAGE ================= */
+        .profile-img {
+            display: block;
+            margin: 20px auto;
+            width: 230px;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 3px solid #00ffff;
+            box-shadow: 0 0 20px #00eaff;
+            transition: 0.3s;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 35px #00aaff;
+        }
+
+        /* ================= PROJECT CARDS ================= */
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: rgba(10, 10, 25, 0.7);
+            border: 1px solid #00eaff;
+            padding: 20px;
+            border-radius: 15px;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 0 30px rgba(0, 255, 255, 0.5);
+        }
+
+        /* ================= CONTACT ICONS ================= */
+        .contact-container {
+            text-align: center;
+        }
+
+        .contact-container img {
+            height: 50px;
+            margin: 10px;
+            transition: 0.3s;
+        }
+
+        .contact-container img:hover {
+            transform: scale(1.12);
+            filter: drop-shadow(0 0 10px #00eaff);
+        }
+
+        /* ================= FOOTER ================= */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7fbfff;
+            margin-bottom: 20px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- ================= NAV BAR ================= -->
+<nav>
+    <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#contacts">CONTACTS</a></li>
+    </ul>
+</nav>
+
+
+<!-- ================= HOME ================= -->
+<section id="home">
+    <div style="text-align:center;">
+        <!-- Banner -->
+        <img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=Torres%20Justine%20Kurt&fontAlign=50&fontSize=70&fontColor=00FFFF&desc=OOP%20PORTFOLIO&descAlign=50&descAlignY=65&descSize=20&animation=fadeIn&color=000033,4B0082,191970"
+             width="100%">
+
+        <!-- TODO: Replace with your own profile image -->
+        <img src="assets/IMG.jpg" class="profile-img">
+
+        <h2>Hello! I'm Kurt 👋</h2>
+        <p style="max-width:700px; margin:auto;">
+            Welcome to my Object-Oriented Programming Portfolio!
+            This website showcases all my OOP lab exercises, challenges, and development progress.
+        </p>
+    </div>
+</section>
+
+
+<!-- ================= ABOUT ME ================= -->
+<section id="about">
+    <h2>🕵️‍♂️ ABOUT ME</h2>
+
+    <p>
+        I am a Computer Science student at City College of Angeles with a passion for logic, systems, and programming. 
+        I stay positive, focused, and driven by curiosity.
+    </p>
+
+    <h3>:: What I Believe In</h3>
+    <ul>
+        <li>Life is not a race—enjoy each moment.👌</li>
+        <li>Failing is part of learning; progress matters.📈</li>
+        <li>Always stay resilient.💪</li>
+    </ul>
+
+    <p>
+        Success comes from <em>continuous improvement, balance, and seizing opportunities</em>.
+    </p>
+
+    <h3>🎓 Academic</h3>
+    <ul>
+        <li><strong>Senior Highschool:</strong> <em>Angeles City National Trade School (CSS Strand)</em></li>
+        <li><strong>Junior Highschool:</strong> <em>Angeles City National Trade School</em></li>
+        <li><strong>Elementary:</strong> <em>Sto. Rosario Elementary School</em></li>
+    </ul>
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+    <h2>💻 MY PROJECTS</h2>
+
+    <h3>:: Midterm Assignments</h3>
+    <div class="card-container">
+
+        <div class="card">
+            <h4>MIDTERM LAB TASK 1</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask1.pdf" target="_blank">📂 Paired Task</a>
+        </div>
+
+        <div class="card">
+            <h4>MIDTERM LAB TASK 2</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask2.pdf" target="_blank">📂 Loops & Functions</a>
+        </div>
+
+        <div class="card">
+            <h4>MIDTERM LAB TASK 3</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask3.pdf" target="_blank">📂 List Collection Types</a>
+        </div>
+
+        <div class="card">
+            <h4>MIDTERM LAB TASK 4</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask4.pdf" target="_blank">📂 Dictionaries</a>
+        </div>
+
+        <div class="card">
+            <h4>MIDTERM LAB TASK 5</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/MidtermLabTask5.pdf" target="_blank">📂 Classes & Objects</a>
+        </div>
+    </div>
+
+    <h3 style="margin-top:40px;">:: Finals Assignments</h3>
+    <div class="card-container">
+        <div class="card">
+            <h4>FINALS LAB TASK 1</h4>
+            <a href="https://github.com/Justine-Kurt-Torres/7OOP-Lab-Task/blob/main/assets/FinalsLabTask1.pdf" target="_blank">📂 Encapsulation Car Program</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= CONTACTS ================= -->
+<section id="contacts">
+    <h2 style="text-align:center;">📞 CONTACTS</h2>
+
+    <div class="contact-container">
+
+        <!-- TODO: Replace email link if needed -->
+        <a href="mailto:jtorres24-0064@cca.edu.ph" target="_blank">
+            <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white">
+        </a>
+
+        <!-- TODO: Replace Facebook link if needed -->
+        <a href="https://www.facebook.com/torresjustine.kurt" target="_blank">
+            <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">
+        </a>
+    </div>
+</section>
+
+
+<footer>
+    © 2025 Kurt Torres — OOP Portfolio
+</footer>
+
+</body>
+</html>
